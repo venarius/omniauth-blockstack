@@ -65,7 +65,7 @@ module OmniAuth
             <title>#{title}</title>
             #{header_info}
           </head>
-          <body>Redirecting to blockstack</body>
+          <body style="font-family: Arial;">Redirecting to blockstack</body>
           </html>
         }
         Rack::Response.new(html, 200, 'content-type' => 'text/html').finish
